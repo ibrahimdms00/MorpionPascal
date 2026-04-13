@@ -1,44 +1,43 @@
-#  Morpion (Tic-Tac-Toe) - C# Console
+# 🏛️ Morpion (Tic-Tac-Toe) - Pascal (Algorithmique)
 
-## Note de l'auteur
-> **Ce projet est mon tout premier code réalisé en Programmation Orientée Objet (POO).**
+## ✍️ Note de l'auteur
+> **Ce projet a été réalisé de manière 100% individuelle.**
 >
-> Contrairement aux projets de groupe habituels réalisés en IUT, j'ai choisi de mener ce travail **entièrement seul et en autonomie**. L'objectif était de me confronter personnellement à chaque défi technique pour garantir ma pleine maîtrise des concepts.
->
-> L'intégralité de la logique de jeu, de l'architecture des classes et de la gestion des références a été **réfléchie et développée sans l'aide d'IA générative**, afin de valider ma compréhension réelle du framework .NET.
+> À l'inverse des projets menés en groupe à l'IUT, j'ai tenu à développer ce programme seul pour consolider mes bases en algorithmique et maîtriser l'intégralité de la chaîne de développement. 
+> 
+> L'intégralité du code a été **réfléchie et écrite sans l'aide d'IA**, afin de garantir une réelle compréhension des structures de contrôle et de la logique procédurale propre au langage Pascal.
 
 ---
 
-## Présentation
-Un jeu de Morpion classique développé en **C#**. Ce projet marque ma transition personnelle d'une programmation procédurale apprise en Pascal vers une approche orientée objet structurée.
+## 🚀 Présentation
+Une implémentation du jeu de Morpion classique en **Pascal**. Ce projet constitue ma base de référence en programmation impérative et a servi de fondation logique avant mon passage à la Programmation Orientée Objet (POO) en C#.
 
-## Le Défi : La transition Pascal vers C#
-Ce projet solo m'a permis de migrer ma logique de réflexion vers les piliers de la POO :
-* **Autonomie complète** : Gestion individuelle de la conception, du développement et du débuggage.
-* **Migration de logique** : Passage des procédures globales (Pascal) aux méthodes de classes et à l'encapsulation.
-* **Gestion des Références** : Maîtrise du passage par référence (`ref`) pour la manipulation de l'état de la partie.
-* **Architecture Objet** : Mise en place d'un objet pivot **T** (Arbitre/Tour) pour piloter le flux du jeu.
+## 🧠 Concepts Algorithmiques Maîtrisés
+Le fait de mener ce projet seul m'a permis de valider des compétences clés :
+* **Autonomie technique** : Conception complète de l'algorithme sans aide extérieure.
+* **Tableaux & Matrices** : Manipulation d'une grille 3x3 via des indexations rigoureuses.
+* **Passage de paramètres** : Utilisation précise des `VAR` (références) pour gérer l'état du jeu entre les procédures.
+* **Logique de validation** : Création de boucles de contrôle pour sécuriser les saisies utilisateur.
 
-## Fonctionnalités
-* **Mode 2 Joueurs** : Alternance fluide et automatique.
-* **Logique de Victoire** : Algorithme de détection scanant lignes, colonnes et diagonales.
-* **Sécurisation** : Validation des saisies utilisateur et protection des cases déjà occupées.
-* **Interface Dynamique** : Rafraîchissement optimisé de la console pour une meilleure expérience utilisateur.
+## 🛠️ Fonctionnalités
+* **Mode 2 Joueurs** : Système de tour par tour géré par une logique procédurale.
+* **Moteur de victoire** : Fonctions de vérification des lignes, colonnes et diagonales.
+* **Interface Console** : Affichage clair et structuré de la grille de jeu.
 
-##  Comment jouer ?
+## ⚙️ Compilation et Exécution
+Pour tester ce projet, utilisez un compilateur Pascal (Free Pascal / Lazarus) :
 
-1.  Clonez le dépôt :
+1.  Compilez le fichier source :
     ```bash
-    git clone [https://github.com/TON_PSEUDO/Morpion-CS.git](https://github.com/TON_PSEUDO/Morpion-CS.git)
+    fpc morpion.pas
     ```
-2.  Ouvrez le projet dans **Visual Studio**.
-3.  Lancez l'application (`F5`).
-4.  Utilisez les chiffres de **1 à 9** pour placer votre pion sur la grille.
+2.  Lancez l'exécutable :
+    ```bash
+    ./morpion
+    ```
 
-##  Structure du Projet
-* `Plateau.cs` : Cerveau du jeu (grille, conditions de victoire, affichage).
-* `Joueur.cs` : Définition des entités joueurs et logique de placement.
-* `Program.cs` : Menu principal et boucle de contrôle.
+## 📈 Évolution
+Ce dépôt témoigne de ma capacité à construire une logique solide à partir de zéro. Il est le point de départ qui m'a permis de comprendre les limites du procédural et de justifier mon évolution vers le C# et la POO.
 
 ---
-*Projet individuel réalisé avec rigueur pour démontrer ma capacité à apprendre et à construire seul.*
+*Projet individuel réalisé avec rigueur pour prouver ma maîtrise des fondamentaux.*
